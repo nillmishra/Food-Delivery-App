@@ -59,7 +59,7 @@ a:link {
 
 .navbar li:hover {
   color: #cc3119; /* darker #ff3b1f */
-  background-color: #ff6b4b; /* lighter #ff3b1f */
+  background-color: #ffdfd8; /* lighter #ff3b1f */
 }
 .login {
   background-color: white;
@@ -92,7 +92,7 @@ a:link {
     margin: 20px auto;
     max-width: 400px;
     display: flex;
-    background-color: #ffe6e1; /* very light #ff3b1f */
+    background-color: #ffdfd8; /* very light #ff3b1f */
     border-radius: 8px;
     overflow: hidden;
     cursor: text;
@@ -147,7 +147,7 @@ a:link {
 
 .filter-card > div {
   flex: 1; /* each box takes equal width */
-  background-color: #ffe6e1; /* light background */
+  background-color: #ffdfd8; /* light background */
   color: #ff3b1f;
   font-weight: bold;
   border: 2px solid #ff3b1f;
