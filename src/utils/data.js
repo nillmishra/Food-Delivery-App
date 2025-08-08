@@ -1,0 +1,68 @@
+const resObj = [
+  {
+    name: "Minar Food",
+    cuisine: "Biryani, North Indian, Asian",
+    stars: "3.9",
+    type: "veg",
+    delivery: "38min to Deliver",
+    cloudinaryid: "2469fa88ee9b0b5d1366ba88f2a7fa7f",
+  },
+  {
+    name: "Spice Villa",
+    cuisine: "South Indian, Vegetarian",
+    stars: "4.1",
+    type: "nonveg",
+    delivery: "30min to Deliver",
+    cloudinaryid: "nigqvxgzvyxtfjuqasgg",
+  },
+  {
+    name: "Tandoori Express",
+    cuisine: "North Indian, Grill",
+    stars: "4.6",
+    type: "nonveg",
+    delivery: "35min to Deliver",
+    cloudinaryid: "0adf25c57357161b20c11281d8a443e6",
+  },
+  {
+    name: "Curry House",
+    cuisine: "Indian, Mughlai",
+    stars: "3.2",
+    type: "veg",
+    delivery: "40min to Deliver",
+    cloudinaryid: "ryzswg44bt7thqzkuaj4",
+  },
+  {
+    name: "Masala Magic",
+    cuisine: "Indian, Street Food",
+    stars: "4.1",
+    type: "nonveg",
+    delivery: "33min to Deliver",
+    cloudinaryid: "rvxp5xbniat84r6efku2",
+  },
+  {
+    name: "Saffron Delight",
+    cuisine: "Hyderabadi, Biryani",
+    stars: "3.5",
+    type: "veg",
+    delivery: "37min to Deliver",
+    cloudinaryid: "dh0qsuqritnmbncwrni3",
+  },
+  {
+    name: "Chaat Corner",
+    cuisine: "Indian Snacks, Street Food",
+    stars: "4.3",
+    type: "veg",
+    delivery: "29min to Deliver",
+    cloudinaryid: "906c0affa7d8ff78a3e4db88b4433cde",
+  },
+  {
+    name: "Royal Rasoi",
+    cuisine: "Punjabi, North Indian", 
+    stars: "4.7",
+    type: "nonveg",
+    delivery: "42min to Deliver",
+    cloudinaryid: "qd4znnazesd7hseqld5s",
+  },
+];
+
+export default resObj;
