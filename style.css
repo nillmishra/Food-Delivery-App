@@ -336,7 +336,7 @@ a:link {
   max-width: 850px;
   margin: 0 auto;
   margin-top: 30px;
-  background-color: #ffe6e1; /* very light #ff3b1f background */
+  background-color: #ffdfd8; /* very light #ff3b1f background */
   border-radius: 12px;
   border: 1px solid #ff3b1f;
   box-shadow: 0 4px 15px rgba(255, 59, 31, 0.1);
@@ -580,4 +580,9 @@ hr {
   border-radius: 6px;
   cursor: pointer;
   font-weight: bold;
+}
+.user-id-box{
+  display: flex;
+  align-items: center;
+  gap: 20px;
 }
