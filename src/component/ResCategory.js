@@ -1,13 +1,11 @@
 import CardList from "./CardList";
 import { useState } from "react";
 
-const ResCategory = ({ category }) => {
-  // State to track whether the category items are shown or hidden
-  const [showItems, setshowItems] = useState(true);
+const ResCategory = ({ category , showItems, setShowIndex}) => {
 
   // Toggle the visibility of the items list when category header is clicked
   const clickHandler = () => {
-    setshowItems(!showItems);
+    setShowIndex();
   };
 
   // Safely access category title or default to "Category"
@@ -23,7 +21,7 @@ const ResCategory = ({ category }) => {
           {title} ({itemCount})
         </span>
         {/* Arrow icon changes based on whether items are shown */}
-        <span>{showItems ? "⬆️" : "⬇️"}</span>
+        <span>{"⬇"}</span>
       </div>
 
       {/* Conditionally render CardList only when showItems is true */}
