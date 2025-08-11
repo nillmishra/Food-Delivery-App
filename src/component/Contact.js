@@ -1,12 +1,15 @@
-import React, { useContext } from "react";
-import UserContext from "../utils/UserContext";
+// import React, { useContext } from "react";
+// import UserContext from "../utils/UserContext";
+import React from "react";
+
 
 const Contact = () => {
-  const {loggedInUser, setUserName} = useContext(UserContext); 
+  // const {loggedInUser, setUserName} = useContext(UserContext); 
 
   return (
     <div>
-      <div>
+      <h1>Contact Us</h1>
+      {/* <div>
         loggedInUser: <span>{loggedInUser}</span>
       </div>
       <div className="search-bar">
@@ -17,6 +20,14 @@ const Contact = () => {
           value={loggedInUser}
           onChange={(e) => setUserName(e.target.value)}
         />
+      </div> */}
+
+      <div>
+        <form>
+            <input type="text" className="form-box" placeholder="name"/>
+            <input type="text" className="form-box" placeholder="message"/>
+            <button>Submit</button>
+        </form>
       </div>
     </div>
   );
